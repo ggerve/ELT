@@ -1,7 +1,6 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
-import './App.css'
 import { ThemeProvider, createTheme, CssBaseline } from '@mui/material';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
@@ -9,6 +8,7 @@ import Team from './components/Team';
 import Vision from './components/Vision';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import './App.css';
 
 const darkTheme = createTheme({
   palette: {
